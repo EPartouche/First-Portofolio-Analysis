@@ -72,7 +72,6 @@ After that, a comparasion of the performance of different stocks on similar scal
 
 
 # Task 3
-
 Task 3 focuses on Exploratory Data Analysis (EDA) of the collected financial data. It requires creating visualizations to understand stock price trends, analyzing the distribution of monthly and annual returns, and constructing correlation matrices. These analyses aim to provide insights into the behavior of selected stocks, identify patterns in returns, and reveal relationships between different stocks and financial ratios. By employing various visualization techniques and statistical analyses, this task helps in gaining a comprehensive understanding of the dataset, which can inform further analysis and potential investment strategies.
 
 
@@ -98,7 +97,6 @@ Task 3 focuses on Exploratory Data Analysis (EDA) of the collected financial dat
 ![image](https://github.com/user-attachments/assets/996621d0-719c-4faf-b63f-3c51985cff42)
 
 # Task 4
-
 Task 4 focuses on portfolio construction and performance evaluation. It requires the use of mean-variance optimization to build a portfolio or the application of a custom strategy for stock selection. Once the portfolio is constructed, the task involves backtesting its performance over the past two years. This process aims to assess the effectiveness of the chosen strategy by simulating how the portfolio would have performed historically. The backtesting will likely include calculating key performance metrics such as returns, risk-adjusted measures, and comparing the portfolio's performance against relevant benchmarks. This comprehensive approach allows for the evaluation and potential refinement of the investment strategy based on historical data.
 
 # Minimum risk Portofolio Construction and then Optimized Sharpe Ratio Portofolio
@@ -171,12 +169,44 @@ Task 4 focuses on portfolio construction and performance evaluation. It requires
 ![image](https://github.com/user-attachments/assets/e97de83f-bcb2-42e9-8407-be5771483d41)
 
 # Task 5
+Task 5 focuses on assessing the risk profile of the constructed portfolio through key financial metrics. It requires the calculation of three important risk measures: the Sharpe Ratio, which evaluates risk-adjusted returns; Beta, which measures the portfolio's volatility relative to the market; and Value at Risk (VaR), which estimates the potential loss in value of the portfolio over a defined period for a given confidence interval. After computing these metrics, the task expects a thorough interpretation of the results. This interpretation should provide insights into the portfolio's performance in relation to its risk, its sensitivity to market movements, and the maximum potential loss under normal market conditions. The analysis aims to give a comprehensive understanding of the portfolio's risk characteristics, which is crucial for making informed investment decisions and managing potential downside risks.
+
+## ***Calculation of the portfolio’s Sharpe Ratio, Beta, and Value at Risk (VaR)***
+
+![image](https://github.com/user-attachments/assets/f329d6e4-737f-4ad1-9b19-1f706ef3aed1)
+
+![image](https://github.com/user-attachments/assets/938583ba-ed6b-47e3-b64b-62b353b7f503)
+
+![image](https://github.com/user-attachments/assets/2b332859-4d4a-4f7b-9109-b165147b2dfd)
+
+![image](https://github.com/user-attachments/assets/256d95fd-f11d-405f-ad12-7c4e4002125d)
+
+## ***Interpretation of these risk metrics***
+
+The Sharpe Ratio of 4.4036 indicates outstanding risk-adjusted returns, suggesting that the portfolio is yielding significantly higher returns per unit of risk compared to a risk-free investment.
+With a Portfolio Beta of 0.6824, this indicates lower volatility than the market, suggesting that the portfolio is expected to experience smaller price swings compared to overall market movements.
+At a 95% confidence level, the Value at Risk (VaR) is $36683.50, meaning there is a 5% chance that losses will not exceed this amount over a specified period.
+At a 99% confidence level, the Value at Risk (VaR) is $51959.00, meaning there is a 1% chance that losses will not exceed this amount over a specified period.
+At a 99.9% confidence level, the Value at Risk (VaR) is $68907.00, meaning there is a 0.09999999999999432% chance that losses will not exceed this amount over a specified period.
+
+***I could interpret these data like this:
+
+**- Sharpe Ratio (4.4036):**
+Reflecting outstanding risk-adjusted returns, the Sharpe Ratio above 1 is generally seen as positive, and a value above 4 indicates that the portfolio is yielding significantly higher returns for each unit of risk taken compared to a risk-free investment. This suggests the portfolio is performing exceptionally well relative to the risks involved.
+
+**- Portfolio Beta (0.6824):**
+With a Beta of 0.6824, this portfolio is less volatile than the overall market. It implies that for every 1% movement in the market, the portfolio is expected to change by about 0.68%. This lower beta indicates a more conservative approach, which may help mitigate losses during market downturns while potentially limiting gains in bullish phases.
+
+**- Value at Risk (VaR):**
+The VaR metrics provide insights into potential losses at different confidence levels:
+**95% VaR:   36,686.50 dollars** This means there’s a 95% chance that losses will not exceed this amount over a specified timeframe.
+**99% VaR: 51,959.00 dollars:** At this level of confidence, there’s a 99% probability that losses will remain below this threshold.
+**99.9% VaR: 68,907.00 dollars:** This indicates an extreme loss scenario, suggesting there’s only a 0.1% chance of exceeding this loss under normal market conditions.***
 
 
+## Machine learning model training to predict future monthly returns based on historical data and financial ratios
 
-
-
-
+***Past datas analysis***
 
 
 
