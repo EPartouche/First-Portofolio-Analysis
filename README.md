@@ -112,7 +112,8 @@ Task 4 focuses on portfolio construction and performance evaluation. It requires
 
 ***Equities/Weight***
 
-![image](https://github.com/user-attachments/assets/39e0aa31-c5ee-4af8-a611-fd7159d93c33)   ![image](https://github.com/user-attachments/assets/d7b539f1-7ce6-4740-b532-7b1079f5b7fb)
+![image](https://github.com/user-attachments/assets/8a4559c7-9bc3-4237-96ec-b5641aefb09d)
+![image](https://github.com/user-attachments/assets/7fadb582-baf0-47f3-8f55-d8ed5e61cb39)
 
 ### 1- Final Optimized Portofolio Construction - Adding restrictions: 
 
