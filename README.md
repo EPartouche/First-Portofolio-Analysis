@@ -208,7 +208,64 @@ The VaR metrics provide insights into potential losses at different confidence l
 
 ***Past datas analysis***
 
+***To view the Historical Close Price Return- Daily Returns analysis clearly (with clear calligraphy), open the project***
 
+![image](https://github.com/user-attachments/assets/90e95730-5084-4101-b8d0-dd0d247be30c)
 
+***Historical Stock Prices for Portofolio***
 
+![image](https://github.com/user-attachments/assets/dd646dca-a83a-4b12-87fc-5b32ac70a6ac)
 
+![image](https://github.com/user-attachments/assets/9ccc24ed-2ffb-42ac-98e9-7280b4a518c1)
+
+***Synthetic Monthly Returns Over Time***
+
+![image](https://github.com/user-attachments/assets/97d03ef8-bd57-43e7-b440-ac98693de917)
+
+***Sample of Engineered Features***
+
+![image](https://github.com/user-attachments/assets/49b8539f-1136-446e-babd-788ce4205c21)
+
+# ***Model evaluation results determination (2025-2029)***
+
+![image](https://github.com/user-attachments/assets/6339f77a-a89e-4bc0-b2f3-6105f908eb7d)
+
+# ***Predicted Prices (2025-2029)***
+
+![image](https://github.com/user-attachments/assets/bd5ba465-d920-43ac-8c07-f4a3276de5c7)
+
+# ***Predicted ROE (2025-2029)***
+
+![image](https://github.com/user-attachments/assets/8b78a1fc-da0c-494a-b3f8-84fa727b9d06)
+
+![image](https://github.com/user-attachments/assets/bb21ab33-5d53-44cb-95e3-339f8e075803)
+
+![image](https://github.com/user-attachments/assets/a8f48b67-69e8-4b05-974f-fb052206e637)
+
+# ***Correlation Heatmap of Predicted Prices (2025-2029)***
+
+![image](https://github.com/user-attachments/assets/843e5c05-0973-49f2-9afd-ec72b083c310)
+
+***Saving case prediction***
+
+![image](https://github.com/user-attachments/assets/1807336e-c12e-44e1-a4fa-fa87c9f9c1d0)
+
+***WORST CASE Projected Returns: Portofolio vs S&P 500***
+
+![image](https://github.com/user-attachments/assets/1303de3b-e799-431c-af92-79d207d9cf5f)
+
+![image](https://github.com/user-attachments/assets/55e72170-ce8a-4cb4-8f85-a8540997e885)
+
+## Model's performance Evaluation***
+
+![image](https://github.com/user-attachments/assets/2e4657f7-ed66-4d71-bd57-9674715bf08b)
+
+Model Reliability Discussion:
+1. R-squared (R²) values vary across stocks, indicating different levels of fit.
+2. MAPE values suggest average percentage errors in predictions.
+3. RMSE provides an absolute measure of prediction error.
+4. The model's linear nature may not capture complex market dynamics.
+5. Past performance doesn't guarantee future results due to changing market conditions.
+6. Short-term predictions may be more reliable than long-term forecasts.
+7. External factors not considered in the model can significantly impact stock prices.
+8. Regular model updates and incorporation of additional features could improve reliability.
